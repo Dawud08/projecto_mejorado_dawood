@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.content{
+   min-height: 80px;
+   background: linear-gradient(
+    90deg,
+    rgb(38, 124, 51)0%,
+    rgb(117, 151, 120)70%
+
+   );
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #dedede;
+    display: block;
+    font-weight: bold
+}
+
+.menu .navbar ul li a:hover {
+    color: #FFFFFF;
+}
+
+.menu1 {
+    display: none;
+}
+    
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: block;
+}
+
+.h1 {
+    margin: 80px 0 0 350px ;
+}
+
+
+
+
+p { 
+    font-size: 17px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    padding: 2px;
+    line-height: 1;
+}
+
+h2 {
+    line-height: 2;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+    background-color:  beige;
+}
+
+a {
+    line-height: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.animated-image {  
+    transition: transform 0.5s ease;
+}
+
+.animated-image:hover {
+    transform: scale(1.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #458b4c;
+    text-align: left;
+}
+
+table th {
+    background-color: #44895b;
+    color: rgb(251, 253, 251);
+}
+
+#noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+article {
+    border: 1px solid #529756;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+article h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+
+article a:hover {
+    text-decoration: underline;
+}
+
+
